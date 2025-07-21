@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background-color: #112D4E !important;
+    color: white !important;
+}
