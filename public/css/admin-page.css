@@ -1,0 +1,220 @@
+:root {
+    --bprimary: #112D4E;
+    --rprimary: #E84855;
+    --rsecondary: #5B2333;
+    --light: #EEF9FF;
+    --dark: #091E3E;
+}
+
+/* =================== TOPBAR =================== */
+/* Topbar Styles */
+.topbar {
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(9, 30, 62, 0.15) !important;
+}
+
+/* Sidebar Toggle Button (Mobile) */
+#sidebarToggleTop {
+    color: var(--bprimary);
+}
+
+#sidebarToggleTop:hover {
+    background-color: rgba(17, 45, 78, 0.1);
+}
+
+/* Topbar Divider */
+.topbar-divider {
+    border-left: 1px solid rgba(17, 45, 78, 0.3);
+}
+
+/* User Information */
+.nav-item .nav-link .text-gray-600 {
+    color: var(--dark) !important;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(17, 45, 78, 0.15);
+    background-color: var(--light);
+}
+
+.dropdown-item {
+    color: var(--bprimary) !important;
+}
+
+.dropdown-item i {
+    color: var(--bprimary) !important;
+}
+
+.dropdown-item:hover {
+    background-color: var(--bprimary) !important;
+    color: var(--light) !important;
+}
+
+.dropdown-item:hover i {
+    color: var(--light) !important;
+}
+
+/* Logout Modal */
+.modal-header {
+    background-color: var(--bprimary);
+    color: var(--light);
+    border-bottom: none;
+}
+
+.modal-title {
+    font-weight: 600;
+}
+
+.modal-content {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(9, 30, 62, 0.2);
+    border-radius: 0.5rem;
+}
+
+.modal-footer .btn-secondary {
+    background-color: white;
+    color: var(--bprimary);
+    border: 2px solid var(--bprimary);
+}
+
+.modal-footer .btn-secondary:hover {
+    background-color: rgb(17, 45, 78);
+    color: var(--light);
+    border: 2px solid var(--bprimary);
+}
+
+.modal-footer .btn-dark {
+    background-color: var(--rprimary);
+    border-color: var(--rprimary);
+}
+
+.modal-footer .btn-dark:hover {
+    background-color: rgb(91, 35, 51) !important;
+    border-color: var(--rsecondary);
+}
+
+.close {
+    color: var(--light) !important;
+    text-shadow: none;
+    opacity: 0.8;
+}
+
+.close:hover {
+    color: var(--light) !important;
+    opacity: 1;
+}
+
+/* Profile Image */
+.img-profile {
+    border: 1px solid var(--bprimary);
+}
+
+/* =================== SIDEBAR =================== */
+/* Sidebar Styles */
+.sidebar {
+    background-color: var(--bprimary) !important;
+}
+
+.sidebar-brand {
+    background-color: var(--bprimary);
+    color: var(--light) !important;
+}
+
+.sidebar-logo {
+    height: 30px;
+    width: auto;
+    transition: all 0.3s ease;
+}
+
+.sidebar-brand-text {
+    color: var(--light);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sidebar-divider {
+    border-top: 1px solid rgba(159, 159, 159, 0.75) !important;
+}
+
+.sidebar-heading {
+    color: rgba(238, 249, 255, 0.4);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+/* Nav Items */
+.nav-item .nav-link {
+    color: var(--light);
+}
+
+.nav-item .nav-link i {
+    color: rgba(238, 249, 255, 0.3);
+}
+
+.nav-item .nav-link:hover {
+    color: var(--light);
+}
+
+/* Active Nav Item */
+.nav-item.active .nav-link {
+    color: var(--light);
+    font-weight: 600;
+}
+
+.nav-item.active .nav-link i {
+    color: var(--light);
+}
+
+/* Collapse Menu */
+.bg-sidebar .collapse-inner {
+    background-color: white;
+}
+
+.collapse-header {
+    color: var(--rprimary) !important;
+    font-size: 0.70rem !important;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
+
+.collapse-item {
+    color: var(--bprimary) !important;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 0.35rem;
+}
+
+.collapse-item:hover {
+    background-color: rgb(17, 45, 78, 0.1) !important;
+    text-decoration: none;
+}
+
+.collapse-item.active {
+    background-color: var(--bprimary) !important;
+    font-weight: 600;
+}
+
+/* Sidebar Toggler */
+#sidebarToggle {
+    background-color: var(--light) !important;
+    height: 28px !important;
+    width: 40px !important;
+}
+
+#sidebarToggle:hover {
+    background-color: var(--bsecondary);
+    opacity: 0.8;
+}
+
+#sidebarToggle::after {
+    color: var(--bprimary) !important;
+}
+
+#sidebarToggle:hover::after {
+    color: var(--bprimary) !important;
+}

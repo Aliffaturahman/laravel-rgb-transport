@@ -1,0 +1,42 @@
+My Laravel Prompts:
+
+1. Cek Version
+    php artisan --version 
+
+---
+
+2. Run Project
+    php artisan serve
+    php artisan serve --port=8001               // custom port
+
+3. Run Migrate (buat table)
+    php artisan migrate                         // buat table
+    php artisan migrate:rollback                // cancel migrasi or hapus tabel terakhir
+    php artisan migrate:rollback --step=2       // cancel migrasi or hapus 2 tabel terakhir
+
+    php artisan migrate:refresh                 // rollback semua tabel 1 per 1 > migrate baru
+    php artisan migrate:refresh --seed          // hapus > buat > isi
+
+    php artisan migrate:fresh                   // hapus semua tabel langsung (DROP TABLE!) > migrate baru
+    php artisan migrate:fresh   --seed          // hapus > buat > isi
+
+4. Run Seed (mengisi table)
+    php artisan db:seed                         // isi table
+    php artisan db:seed --class=*UserSeeder*    // seeder untuk user aja 
+
+5. Run Migrate + Seed (buat > isi)
+    php artisan migrate --seed                  // buat table terus langsung isi table
+
+6. Run Symbolic Link (storage laravel)
+    php artisan storage:link                    // buat shortcut dari public/storage ke storage/app/public
+
+---
+
+7. Membuat file baru
+    php artisan make:migration *create_users_table* // buat table
+    php artisan make:factory *UserFactory*          // buat factory
+    php artisan make:seeder *UserSeeder*            // buat seeder
+    php artisan make:model *User*                   // buat model
+    php artisan make:controller *UserController*    // buat controller
+
+    note: *contoh*
