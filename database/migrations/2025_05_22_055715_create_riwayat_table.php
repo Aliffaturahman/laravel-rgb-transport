@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('riwayat', function (Blueprint $table) {
             $table->id();
-            $table->datetime('waktu')->default(DB::raw('current_date()'));
+            $table->datetime('waktu')->default(DB::raw('now()'));
             $table->string('jenis', 50);
             $table->string('keterangan', 100);
             $table->string('status', 50);

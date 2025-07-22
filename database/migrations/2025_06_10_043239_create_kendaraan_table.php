@@ -18,9 +18,9 @@ return new class extends Migration
             $table->string('merk', 100);
             $table->string('bbm', 100);
             $table->unsignedbiginteger('supir')->nullable();
-            $table->datetime('exp_stnk')->default(DB::raw('current_date()'));
-            $table->datetime('exp_kir')->default(DB::raw('current_date()'));
-            $table->datetime('tgl_pembuatan')->default(DB::raw('current_date()'));
+            $table->datetime('exp_stnk')->default(DB::raw('now()'));
+            $table->datetime('exp_kir')->default(DB::raw('now()'));
+            $table->datetime('tgl_pembuatan')->default(DB::raw('now()'));
             $table->timestamps();
                  
             $table->foreign('supir')
