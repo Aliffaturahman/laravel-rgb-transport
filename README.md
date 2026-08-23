@@ -5,8 +5,6 @@
 
 RGB Transport is a web-based transportation booking platform designed to facilitate the ordering and management of goods delivery services. The platform allows customers to submit delivery orders and track their shipments, while administrators can manage orders, customers, vehicles, pricing, and shipment information through an administrative interface.
 
-This project was developed as part of an undergraduate thesis with a focus on **User Experience (UX)** using the **Lean UX** methodology. The development process involved identifying user needs, creating a Minimum Viable Product (MVP), conducting experiments, and gathering feedback to improve the overall user experience.
-
 ## Features
 
 ### Customer
@@ -75,37 +73,6 @@ This project was developed as part of an undergraduate thesis with a focus on **
 
 - **DataTables**  
   Used to provide interactive tables for managing and displaying data.
-
-## UX Methodology
-
-The development of RGB Transport follows the **Lean UX** methodology, which consists of several iterative stages:
-
-1. **Declare Assumptions**  
-   Identify assumptions about users, business needs, and system requirements.
-
-2. **Create an MVP**  
-   Develop a Minimum Viable Product containing the essential features of the transportation booking system.
-
-3. **Run Experiments**  
-   Test the MVP with users to identify usability and user experience issues.
-
-4. **Feedback and Research**  
-   Collect user feedback and evaluation results to identify improvements for the next iteration.
-
-## Evaluation
-
-The user experience of RGB Transport was evaluated using several methods:
-
-- **System Usability Scale (SUS)**  
-  Used to measure the overall usability of the system.
-
-- **User Experience Questionnaire (UEQ)**  
-  Used to evaluate different aspects of the user experience, including attractiveness, perspicuity, efficiency, dependability, stimulation, and novelty.
-
-- **Heuristic Evaluation**  
-  Used to identify usability problems based on established usability principles.
-
-The evaluation results showed that the system achieved a **SUS score of 82.83**, which falls within the **Excellent** category.
 
 ## Project Purpose
 
